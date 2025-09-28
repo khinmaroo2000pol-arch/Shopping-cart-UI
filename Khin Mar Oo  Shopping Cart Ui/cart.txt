@@ -1,0 +1,12 @@
+  <div class="cart d-flex justify-content-between">
+                    <img src="imgs/${item.image}" alt="" style="width: 100px; ">
+                    <div class="info text-end">
+                        <h4 class="m-0">${item.name}</h4>
+                        <p class="m-0 fs-4">Price: $ ${item.price}</p>
+                        <div class="btns">
+                            <button onclick="changeQuantity(${index}, 'decrease')" class="btn mx-2 fs-4">-</button>
+                            <span>${item.quantity}</span>
+                            <button onclick="changeQuantity(${index}, 'increase')" class="btn mx-2 fs-4">+</button>
+                        </div>
+                    </div>
+                </div> <hr>
